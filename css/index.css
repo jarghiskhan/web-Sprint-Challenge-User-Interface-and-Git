@@ -158,23 +158,22 @@ p {
 }
 
 header {
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
-header nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    margin: 0 2rem;
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 0 2rem;
 }
-header nav a{
-    color: black;
-    text-decoration: none;
+header nav a {
+  color: black;
+  text-decoration: none;
 }
-
-
 
 .top-content {
   display: flex;
@@ -184,12 +183,16 @@ header nav a{
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
-.top-content img{
-    margin-bottom: 2rem;
+.top-content img {
+  margin-bottom: 2rem;
 }
 
 .top-content .text-container {
   width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+.top-content .about-text-container {
   padding: 0 1%;
   padding-bottom: 20px;
 }
@@ -203,11 +206,37 @@ header nav a{
   padding: 0 2%;
   margin-bottom: 0;
 }
+.about-middle-content {
+  margin-bottom: 20px;
+}
 
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+.about-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-boxes div {
+  width: min-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px dashed black;
+  padding-bottom: 3%;
+  margin: 0.5rem;
+}
+.about-boxes h2 {
+  margin: 0.7rem 0;
+}
+.about-boxes button {
+  height: 2rem;
+  width: 7rem;
+  margin:.5rem 0;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .middle-content .boxes div {
@@ -225,7 +254,7 @@ header nav a{
 .middle-content .boxes .box1 {
   background: teal;
 }
-.middle-content .boxes .box2{
+.middle-content .boxes .box2 {
   background: gold;
 }
 .middle-content .boxes .box3 {
@@ -259,6 +288,10 @@ header nav a{
   display: flex;
   margin: 0 2% 20px;
   justify-content: space-around;
+}
+
+.about-bottom-content {
+  margin-bottom: 20px;
 }
 
 .bottom-content .text-container {
